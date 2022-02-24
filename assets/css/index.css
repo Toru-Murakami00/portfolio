@@ -17,6 +17,8 @@
 }
 
 body {
+  overflow-wrap: break-word;
+  hyphens: auto;
   background-color: black;
   color: #707070;
   text-align: center;
@@ -139,7 +141,6 @@ main {
 }
 
 .skillTitle {
-  width: fit-content;
   font-weight: 75;
   margin: 2rem;
 }
@@ -169,6 +170,7 @@ main {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
 }
 
@@ -194,6 +196,9 @@ main {
   margin-bottom: 4rem;
   display: flex;
   width: 60%;
+}
+#contactSection > * {
+  flex-wrap: wrap;
 }
 #toTopNav {
   text-align: center;
