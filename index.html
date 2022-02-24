@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toru Murakami</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <nav id="topNav" class="flex">
+      <span class="scrollButton" id="scrollToSkill">Skills</span>
+      <span class="scrollButton" id="scrollToContact">Contact</span>
+    </nav>
+    <main>
+      <section aria-label="top" id="topSection" class="fw-50">
+        <div class="wire-large"></div>
+        <h1 class="greet fw-50 ff-timesNewRoman fade-in">
+          Hello,
+          <br />
+          I'm
+          <span class="emphasis">Toru</span>.
+        </h1>
+        <div class="wire-small"></div>
+        <div class="wire-small-halo"></div>
+        <p class="fade-in">A Full Stack Developer.</p>
+        <p class="fade-in">A Software Engineer.</p>
+        <p class="fade-in">A Graphic Designer.</p>
+      </section>
+      <section aria-labelledby="skill-title" id="skillSection">
+        <h2 id="skill-title" class="sectionTitle fade-in">
+          <i class="fa fa-code"></i> Skills
+        </h2>
+        <div class="boxContainer fade-in">
+          <div class="skillBox">
+            <h3 class="skillTitle">
+              <i class="fa fa-desktop"></i> Full Stack Development
+            </h3>
+            <br />
+            <ul class="skillList">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>React</li>
+              <li>PHP</li>
+              <li>Go</li>
+              <li>SQL</li>
+              <li>Docker</li>
+            </ul>
+          </div>
+          <div class="skillBox fade-in">
+            <h3 class="skillTitle">
+              <i class="fa fa-terminal"></i> Software Engineering
+            </h3>
+            <br />
+            <ul class="skillList">
+              <li>Python</li>
+              <li>C#</li>
+              <li>C++</li>
+              <li>Kotlin</li>
+            </ul>
+          </div>
+          <div class="skillBox fade-in">
+            <h3 class="skillTitle">
+              <i class="fa fa-object-group"></i> Graphic Design
+            </h3>
+            <br />
+            <ul class="skillList">
+              <li>Adobe Illustrator</li>
+              <li>Adobe XD</li>
+              <li>Adobe Photoshop</li>
+              <li>Blender</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer class="fade-in">
+        <section id="contactSection" aria-label="contact" class="flex">
+          <a href="mailto:tm0011@morningside.edu" class="fa fa-envelope"
+            ><span class="ff-helvetica"> tm0011@morningside.edu</span></a
+          >
+          <a
+            href="https://www.linkedin.com/in/toru-murakami/"
+            class="icon brands fa-linkedin-in"
+            ><span class="label">LinedIn</span></a
+          >
+        </section>
+        <span id="toTopNav"><i class="fa fa-arrow-circle-up"></i></span>
+        <div class="marginPadding"></div>
+      </footer>
+    </main>
+    <!-- scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery() ||
+        document.write(
+          '<script src = "./assets/js/jquery.3.6.0.min.js"><\/script>'
+        );
+    </script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+    <!-- /scripts -->
+  </body>
+</html>
