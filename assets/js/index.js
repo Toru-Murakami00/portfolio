@@ -4,7 +4,7 @@
 const scrollShowOption = {
   root: null,
   rootMargin: "0px",
-  threshold: 0.5,
+  threshold: 0.2,
 };
 
 let scrollShowTarget = document.querySelectorAll(".fade-in");
