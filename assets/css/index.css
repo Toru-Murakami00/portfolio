@@ -35,17 +35,13 @@ nav {
   width: 60%;
 }
 
-a,
-a > span {
+a, nav > span{
+  transition: color 500mx ease;
   color: dimgray;
 }
 
-a:visited {
+a:hover, nav > span:hover {
   color: steelblue;
-}
-
-nav > a:visited {
-  color: dimgray;
 }
 
 main {
