@@ -56,6 +56,12 @@ $("#scrollToSkill").on("click", () => {
   }, 200);
 });
 
+$("#scrollToProject").on("click", () => {
+  setTimeout(() => {
+    $("#projectSection")[0].scrollIntoView({ behavior: "smooth" });
+  }, 200);
+});
+
 $("#scrollToContact").on("click", () => {
     setTimeout(() => {
         $("#contactSection")[0].scrollIntoView({ behavior: "smooth" });
