@@ -35,12 +35,12 @@ nav {
   width: 60%;
 }
 
-a, nav > span{
+a, .scrollButton{
   transition: color 500mx ease;
   color: dimgray;
 }
 
-a:hover, nav > span:hover {
+a:hover, .scrollButton:hover {
   color: steelblue;
 }
 
