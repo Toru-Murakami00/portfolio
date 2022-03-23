@@ -25,6 +25,7 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+
 .scrollButton {
   color: dimgray;
   cursor: pointer;
@@ -101,6 +102,13 @@ main {
   margin-bottom: 10rem;
 }
 
+@media (max-width: 400px) {
+  .greet {
+    font-size: 4em;
+    text-align: left;
+    margin-bottom: 5rem;
+  }
+}
 .emphasis {
   font-weight: bolder;
   color: aliceblue;
