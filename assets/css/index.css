@@ -102,13 +102,6 @@ main {
   margin-bottom: 10rem;
 }
 
-@media (max-width: 400px) {
-  .greet {
-    font-size: 4em;
-    text-align: left;
-    margin-bottom: 5rem;
-  }
-}
 .emphasis {
   font-weight: bolder;
   color: aliceblue;
@@ -172,6 +165,27 @@ main {
   }
 }
 
+@media (max-width: 600px) {
+  .greet {
+    font-size: 4em;
+    text-align: left;
+    margin-bottom: 5rem;
+  }
+  .boxContainer {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+  }
+  .boxContainer > .skillBox {
+    width: 100%;
+    margin: auto;
+  }
+
+  .boxContainer > .projectBox {
+    width: 100%;
+    margin: auto;
+  }
+}
 .sectionTitle {
   color: aliceblue;
   font-family: "Times New Roman", Times, serif;
